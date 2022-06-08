@@ -23,21 +23,10 @@ text-align: center;
 margin-top : -90px ;
 left : 150px ;
 }
-
-
-
-
-
-
-
-
-
-
 .header0{
 position:relative;
 top : -20px ;
 }
-
 p.header0{
 font-weight :bold ;
 line-height : 60px ;
@@ -68,9 +57,6 @@ font-size : 24px ;
 letter-spacing : 4px ;
 line-height : 80px ;
 }
-
-
-
 #page_top{
 width: 118px;
 height: 50px;
@@ -129,7 +115,13 @@ top : 70px ;
 text-align: left;
 margin-left : 60px ;
 }
-
+.topMenu3{
+display: block;
+position: relative;
+text-align:right ;
+top : -30px ;
+left : -100px ;
+}
 .topMenu1{
 display: block;
 position: relative;
@@ -288,7 +280,6 @@ font-size: 35px;
 margin-left : 90% ;
 margin-top : -4.1% ;
 }
-
 .fontResort{
 position: absolute ;
 top : -300px;
@@ -302,12 +293,6 @@ font-size: 20px;
 margin-left :79% ;
 margin-top : -6.2% ;
 }
-
-
-
-
-
-
 .goToEats{
 position : relative ;
 top : -300px;
@@ -494,13 +479,6 @@ left : 320px ;
 position: relative ;
 left : 590px ;
 }
-
-
-
-
-
-
-
 .FooterList{
 background-color : gray ;
 opacity: 0.1;
@@ -680,29 +658,10 @@ bottom: 92px;
 border-width:1px;
 width : 92%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .space:hover,
 .followSpace:hover {
 opacity: .5;
 }
-
 /* オーバーレイ 画面指定範囲を暗くする*/
 .overlay ,
 .followOverlay {
@@ -722,8 +681,6 @@ visibility: hidden;
 transition: .10s;
 z-index : 888 ;
 }
-
-
 /* activeクラスのついたオーバーレイ */
 .overlay.active ,
 .followOverlay.active {
@@ -732,16 +689,13 @@ opacity: 1;
 visibility: visible;
 transform: translateY(0px);
 }
-
-
-
 /* モーダルウィンドウ */
 .modal,
 .followModal{
 text-align: center;
 max-width: 500px;
 width : 86%;
-height : 86%;
+height : 92%;
 /*padding: 15px 20px;*/
 background: white;
 /* 位置の調整(真ん中に表示) */
@@ -766,4 +720,1029 @@ opacity: 1;
 visibility: visible;
 transform: translateX(0px);
 transition: all 1s;
+}
+.Login{
+position : relative;
+top : -30px ;
+font-size : 20px;
+font-weight : bold;
+letter-spacing:-1px;
+}
+.modalLine0{
+position: relative;
+border-top: 1px solid gray ;
+text-align: center;
+margin: 0 auto;
+border-width:1px;
+top: -59px;
+}
+.mailAddress{
+position: relative;
+text-align: center;
+margin: 0 auto;
+border-width:1px;
+top: -70px;
+}
+.sizeTextBox{
+position: relative;
+height: 40px;
+width : 450px;
+top :20px ;
+font-size : 20px;
+border-radius: 10px;
+border: 1px solid black; /* 枠線 */
+}
+
+.passWord{
+position: relative;
+text-align: center;
+margin: 0 auto;
+border-width:1px;
+top: -88px;
+}
+.sizePassWord{
+position: relative;
+height: 40px;
+width : 450px;
+top :20px ;
+font-size : 20px;
+border-radius: 10px;
+border: 1px solid black; /* 枠線 */
+}
+.modalLine1{
+position: relative;
+border-top: 1px solid gray ;
+text-align: center;
+margin: 0 auto;
+border-width:1px;
+top: -50px;
+}
+.submitButton0{
+position: relative;
+display:block;
+bottom: 75px ;
+left :21px;
+border-radius: 10px;
+border: 1px solid black; /* 枠線 */
+color: white;
+background-color:#CC0066;
+}
+.submitButton0{
+width : 455px;
+height : 45px;
+}
+.sendSize{
+position: relative;
+bottom : 35px ;
+font-size: 20px;
+}
+.twitterButton{
+position: relative;
+display:block;
+top: -21px ;
+left :21px;
+border-radius: 10px;
+border: 1px solid black; /* 枠線 */
+color: white;
+background-color:white;
+z-index :1 ;
+}
+.twitterButton{
+width : 455px;
+height : 45px;
+z-index :1 ;
+}
+.fbButton{
+position: relative;
+display:block;
+top: -6px ;
+left :21px;
+border-radius: 10px;
+border: 1px solid black; /* 枠線 */
+color: white;
+background-color:white;
+z-index :777 ;
+}
+.fbButton{
+width : 455px;
+height : 45px;
+}
+.googleButton{
+position: relative;
+display:block;
+top: 8px ;
+left :21px;
+border-radius: 10px;
+border: 1px solid black; /* 枠線 */
+color: white;
+background-color:white;
+z-index :777 ;
+}
+.googleButton{
+width : 455px;
+height : 45px;
+}
+.appleButton{
+position: relative;
+display:block;
+top: 22px ;
+left :21px;
+border-radius: 10px;
+border: 1px solid black; /* 枠線 */
+color: white;
+background-color:white;
+z-index :777 ;
+}
+.appleButton{
+width : 455px;
+height : 45px;
+}
+.markSize{
+position: relative;
+bottom : 25px ;
+font-size: 20px;
+}
+.Login2{
+position : relative;
+top : 0px ;
+font-size : 20px;
+font-weight : bold;
+letter-spacing:-1px;
+}
+.modalLine3{
+position: relative;
+border-top: 1px solid gray ;
+text-align: center;
+margin: 0 auto;
+border-width:1px;
+top: -10px;
+}
+.sizeTextBox2{
+position: relative;
+height: 40px;
+width : 450px;
+top :65px ;
+font-size : 20px;
+border-radius: 10px;
+border: 1px solid black; /* 枠線 */
+}
+
+.passWord2{
+position: relative;
+text-align: center;
+margin: 0 auto;
+border-width:1px;
+top: -68px;
+}
+.sizePassWord2{
+position: relative;
+height: 40px;
+width : 450px;
+top :35px ;
+font-size : 20px;
+border-radius: 10px;
+border: 1px solid black; /* 枠線 */
+}
+.modalLine4{
+position: relative;
+border-top: 1px solid gray ;
+text-align: center;
+margin: 0 auto;
+border-width:1px;
+top: 55px;
+}
+.submitButton2{
+position: relative;
+display:block;
+bottom: 85px ;
+left :21px;
+border-radius: 10px;
+border: 1px solid black; /* 枠線 */
+color: white;
+background-color:#CC0066;
+}
+.submitButton2{
+width : 455px;
+height : 45px;
+}
+.submitButton2{
+position: relative;
+display:block;
+bottom: -30px ;
+left :21px;
+border-radius: 10px;
+border: 1px solid black; /* 枠線 */
+color: white;
+background-color:#CC0066;
+}
+.submitButton2{
+width : 455px;
+height : 45px;
+}
+.sendSize2{
+position: relative;
+bottom : 10px ;
+font-size: 20px;
+}
+
+.twitterButton2{
+position: relative;
+display:block;
+top: 80px ;
+left :21px;
+border-radius: 10px;
+border: 1px solid black; /* 枠線 */
+color: white;
+background-color:white;
+z-index :1 ;
+}
+.twitterButton2{
+width : 455px;
+height : 45px;
+z-index :1 ;
+}
+
+.fbButton2{
+position: relative;
+display:block;
+top: 95px ;
+left :21px;
+border-radius: 10px;
+border: 1px solid black; /* 枠線 */
+color: white;
+background-color:white;
+z-index :777 ;
+}
+.fbButton2{
+width : 455px;
+height : 45px;
+}
+
+.googleButton2{
+position: relative;
+display:block;
+top: 115px ;
+left :21px;
+border-radius: 10px;
+border: 1px solid black; /* 枠線 */
+color: white;
+background-color:white;
+z-index :777 ;
+}
+.googleButton2{
+width : 455px;
+height : 45px;
+}
+
+.appleButton2{
+position: relative;
+display:block;
+top: 130px ;
+left :21px;
+border-radius: 10px;
+border: 1px solid black; /* 枠線 */
+color: white;
+background-color:white;
+z-index :777 ;
+}
+.appleButton2{
+width : 455px;
+height : 45px;
+}
+.markSize2{
+position: relative;
+bottom : 15px ;
+font-size: 20px;
+}/**mark位置 */
+.sendSize{
+position: relative;
+bottom : 35px ;
+font-size: 20px;
+}
+.headMenuSet{
+background-color: rgba(1,1,1,0.8);
+opacity: 0.8;
+height : 70px;
+position: absolute;
+buttom : 120px ;
+width : 100%;
+margin-top: 0;
+opacity : 1 ;
+}
+.topMenu2{
+margin : 0auto;
+position: absolute;
+left : 500px;
+top :30px ;
+}
+.headMenu5{
+position : relative;
+text-align: left;
+margin-right : 220px ;
+top :25px ;
+left :70px ;
+}
+.example2{
+position : absolute;
+left : 533px ;
+top : 10px ;
+}
+
+.contentOfTransmission{
+position : absolute ;
+top : 126px ;
+left : 250px;
+height : 864px ;
+width: 800px;
+border: solid 0.1px rgba(1, 1, 1, 0.2);
+text-align: center ;
+border-radius: 15px;
+}
+.inquiry{
+position : absolute ;
+top : 10px;
+left :350px;
+font-weight : 900 ;
+font-size : 20px ;
+}
+.inquiryLine{
+position: relative;
+border-top: 0.1px solid rgba(1, 1, 1, 0.2);
+text-align: center;
+margin: 0 auto;
+border-width:1px;
+top: 88px;
+}
+
+
+.fillInTheFollowingItems{
+position : absolute ;
+top : 115px ;
+left:20px ;
+height : 20px ;
+width: 93%;
+/*コレ*/border-top: 1.2px solid black;
+/*コレ*/border-bottom: 1.2px solid black;
+padding: 10px;
+background: #f2f2f2;
+text-align: center ;
+font-color : rgb（220,220,220）;
+}
+
+.FooterLine2{/*inquiryScreen.phpのフッターのライン*/
+position: relative;
+border-top: 1px solid gray ;
+text-align: center;
+margin: 0 auto;
+top : 3360px ;
+border-width:1px;
+width : 92%;
+}
+.FooterList2{/*inquiryScreen.phpのフッターのカラー*/
+background-color : gray ;
+opacity: 0.1;
+position: absolute ;
+top : 3000px ;
+height : 500px ;
+width: 100%;
+margin : 0 auto ;
+}
+.inquiryFooter{/*footer全体の位置の移動*/
+position: relative ;
+top : -1950px ;
+}
+.footerMove{
+position: relative ;
+top:130px ;
+}
+.enter{
+position: relative ;
+top : -15px;
+text-align: left;
+}
+.enter1{
+position: relative ;
+top : -20px;
+right : 130px ;
+font-size : 15px ;
+}
+.enter2{
+position: relative ;
+top : -37px;
+right : 105px ;
+font-size : 15px ;
+}
+.enter3{
+position: relative ;
+top : -53px;
+right : 285px ;
+font-size : 15px ;
+}
+.asterisk0{
+color:red ;
+position: relative ;
+top : -93px;
+right : 372px ;
+}
+.asterisk1{
+color:red ;
+position: relative ;
+top : -112px;
+right : 342px ;
+}
+.asterisk2{
+color:red ;
+position: relative ;
+top : -86px;
+right : 310px ;
+}
+.asterisk3{
+color:red ;
+position: relative ;
+top : 8px;
+right : 262px ;
+}
+.asterisk4{
+color:red ;
+position: relative ;
+top : -96px;
+right : 307px ;
+}
+.asterisk5{
+color:red ;
+position: relative ;
+top : 17px;
+right : -16px ;
+z-index : 100 ;
+}
+.submitButton3{
+display:block;
+border-radius: 10px;
+border: 1px solid black; /* 枠線 */
+color: white;
+background-color:#CC0066;
+}
+.submitButton3{
+width : 455px;
+height : 45px;
+}
+.submitButton3{
+position: relative;
+display: block;
+bottom: -245px;
+left: 24px;
+border-radius: 10px;
+border: 1px solid black;
+color: white;
+background-color: #CC0066;
+}
+.submitButton3{
+width : 750px;
+height : 45px;
+}
+.entryPlace{
+position: relative;
+height: 35px;
+width : 750px;
+top :87px ;
+font-size : 20px;
+border-radius: 10px;
+border: solid 0.1px rgba(1, 1, 1, 0.2);
+}
+.entryName{
+position: relative;
+text-align: center;
+margin: 0 auto;
+border-width:1px;
+top: 160px;
+}
+.entryName2{
+position: relative;
+text-align: center;
+margin: 0 auto;
+border-width:1px;
+top: 190px;
+}
+.entryNumber{
+position: relative;
+text-align: center;
+margin: 0 auto;
+border-width:1px;
+top: 220px;
+}
+.entryAddress{
+position: relative;
+text-align: center;
+margin: 0 auto;
+border-width:1px;
+top: 245px;
+}
+.fillInYourName{
+position: relative;
+top : 54px ;
+right : 360px ;
+font-size: 16px;
+}
+.howToRead{
+position: relative;
+top : 38px ;
+right : 345px ;
+font-size: 16px;
+}
+.fillInThePhoneNumber{
+position: relative;
+top : 12px ;
+right : 343px ;
+font-size: 16px;
+}
+.fillInYourEmailAddress{
+position: relative;
+top : -10px ;
+right : 320px ;
+font-size: 16px;
+}
+.fillInTheFollowingItems2{
+position : absolute ;
+top : 385px ;
+left:0px ;
+height : 20px ;
+width: 96.5%;
+/*コレ*/border-top: 1.2px solid black;
+/*コレ*/border-bottom: 1.2px solid black;
+padding: 10px;
+background: #f2f2f2;
+text-align: center ;
+font-color : rgb（220,220,220）;
+}
+.detail{
+position: relative;
+vertical-align: text-bottom;
+margin: 0 auto;
+border-width:1px;
+top: 100px;
+}
+.entryDetail{
+position: relative;
+height: 200px;
+width : 750px;
+top :131px ;
+font-size : 20px;
+border-radius: 10px;
+border: solid 0.1px rgba(1, 1, 1, 0.2);
+}
+
+.ContentsOfInquiry{
+position: relative;
+top : -35px ;
+right : 310px ;
+font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+.Notes0{
+font-size : 14px;
+position: relative;
+top : 88px ;
+right : 215px ;
+}
+.Notes1{
+font-size : 14px;
+position: relative;
+top : 74px ;
+right : 235px ;
+}
+.Inquiry0LinesBelow{
+position: relative;
+border-top: 0.1px solid rgba(1, 1, 1, 0.2);
+text-align: center;
+margin: 0 auto;
+border-width:1px;
+top: 100px;
+max-width: 750px;
+}
+.Inquiry1LinesBelow{
+position: relative;
+border-top: 0.1px solid rgba(1, 1, 1, 0.2);
+text-align: center;
+margin: 0 auto;
+border-width:1px;
+top: 170px;
+max-width: 750px;
+}
+.Inquiry2LinesBelow{
+position: relative;
+border-top: 0.1px solid rgba(1, 1, 1, 0.2);
+text-align: center;
+margin: 0 auto;
+border-width:1px;
+top: 238px;
+max-width: 750px;
+}
+.Inquiry3LinesBelow{
+position: relative;
+border-top: 0.1px solid rgba(1, 1, 1, 0.2);
+text-align: center;
+margin: 0 auto;
+border-width:1px;
+top: 306px;
+max-width: 750px;
+}
+.Inquiry4LinesBelow{
+position: relative;
+border-top: 0.1px solid rgba(1, 1, 1, 0.2);
+text-align: center;
+margin: 0 auto;
+border-width:1px;
+top: 373px;
+max-width: 750px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Confirmation0{
+position: relative;
+top : 46px ;
+right : 333px ;
+font-size: 19px;
+}
+.Confirmation1 {
+position: relative;
+top: 23px;
+right: 314px;
+font-size: 19px;
+}
+.Confirmation2 {
+position: relative;
+top: -1px;
+right: 306px;
+font-size: 19px;
+}
+.Confirmation3{
+position: relative;
+top : -25px ;
+right : 298px ;
+font-size: 19px;
+}
+.Confirmation4{
+position: relative;
+top: -47px;
+right: 302px;
+font-size: 19px;
+}
+
+
+
+
+
+
+
+.fillInYourName0{
+position: relative;
+top : 54px ;
+right : 360px ;
+font-size: 16px;
+}
+.howToRead0{
+position: relative;
+top: 80px;
+right: 346px;
+font-size: 16px;
+}
+.fillInThePhoneNumber0{
+position: relative;
+top : 109px ;
+right : 343px ;
+font-size: 16px;
+}
+.fillInYourEmailAddress0 {
+position: relative;
+top: 134px;
+right: 322px;
+font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ProgressConfirmationText1stLine{
+position: relative;
+top: -56px;
+right: 210px;
+font-size: 19px;
+}
+.ProgressConfirmationText2stLine{
+position: relative;
+top: -78px;
+right: 256px;
+font-size: 19px;
+}
+.ProgressConfirmationText3stLine{
+position: relative;
+top: -74px;
+right: 56px;
+font-size: 19px;
+}
+.ProgressConfirmationText4stLine{
+position: relative;
+top: -97px;
+right: 354px;
+font-size: 19px;
+}
+.ProgressConfirmationText5stLine{
+position: relative;
+top: -120px;
+right: 213px;
+font-size: 19px;
+}
+.ProgressConfirmationText6stLine{
+position: relative;
+top: -142px;
+right: 58px;
+font-size: 19px;
+}
+.ProgressConfirmationText7stLine{
+position: relative;
+top: -163px;
+right: 193px;
+font-size: 19px;
+}
+.ProgressConfirmationText8stLine{
+position: relative;
+top: -161px;
+right: 61px;
+font-size: 19px;
+}
+.ProgressConfirmationText9stLine{
+position: relative;
+top: -184px;
+right: 336px;
+font-size: 19px;
+}
+.ProgressConfirmationText10stLine{
+position: relative;
+top: -208px;
+right: 60px;
+font-size: 19px;
+}
+.ProgressConfirmationText11stLine{
+position: relative;
+top: -230px;
+right: 298px;
+font-size: 19px;
+}
+.contentOfTransmission2{
+position : absolute ;
+top : 125px ;
+left : 250px;
+height : 920px ;
+width: 800px;
+border: solid 0.1px rgba(1, 1, 1, 0.2);
+text-align: center ;
+border-radius: 15px;
+}
+.inquiryFooter2{/*footer全体の位置の移動*/
+position: relative ;
+top : -1890px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.submitButton4{
+display:block;
+border-radius: 10px;
+border: 1px solid black; /* 枠線 */
+color: white;
+background-color:#CC0066;
+}
+.submitButton4{
+width : 367px;
+height : 45px;
+}
+.submitButton4{
+position: relative;
+display: block;
+bottom: 245px;
+left: 24px;
+border-radius: 10px;
+border: 1px solid black;
+color: white;
+background-color: #CC0066;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.submitButton5{
+display:block;
+border-radius: 10px;
+border: 1px solid black; /* 枠線 */
+color: black ;
+}
+.submitButton5{
+width : 367px;
+height : 45px;
+}
+.submitButton5{
+position: relative;
+display: block;
+bottom: 291px;
+left: 410px;
+border-radius: 10px;
+border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.inquiryFooter3{/*footer全体の位置の移動*/
+position: relative ;
+top : -2450px ;
+}
+.FooterLine3{/*inquiryScreen.phpのフッターのライン*/
+position: relative;
+border-top: 1px solid gray ;
+text-align: center;
+margin: 0 auto;
+top : 3230px ;
+border-width:1px;
+width : 92%;
+}
+.FooterList3{/*inquiryScreen.phpのフッターのカラー*/
+background-color : gray ;
+opacity: 0.1;
+position: absolute ;
+top : 2858px ;
+height : 500px ;
+width: 100%;
+margin : 0 auto ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contentOfTransmission3{
+position: absolute;
+top: 125px;
+left: 250px;
+height: 220px;
+width: 777px;
+border: solid 0.1px rgba(1, 1, 1, 0.2);
+text-align: center;
+border-radius: 15px;
+}
+.inquirySendCompletely{
+position : absolute ;
+left :350px;
+font-weight : 900 ;
+font-size : 20px ;
+}
+.inquirySendCompletelyLine{
+position: relative;
+border-top: 1px solid gray;
+text-align: center;
+margin: 0 auto;
+top: 73px;
+right: 0px;
+border-width: 1px;
+width: 100%;
+}
+.thankYouText0{
+font-size : 15px ;
+position: relative;
+top: 80px;
+right: 218px;
+}
+.thankYouText1{
+font-size : 15px ;
+position: relative;
+top: 62px;
+right: 112px;
+}
+.thankYouText2{
+font-size : 15px ;
+position: relative;
+top: 45px;
+right: 97px;
+}
+.backToTopButton{
+z-index: 100;
+font-size: 17px;
+color: blue;
+position: relative;
+top: 40px;
+right: 308px;
 }
