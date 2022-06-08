@@ -1,33 +1,3 @@
-//追従するヘッダーの記述。
-const headerMove = $('header') ;
-$(window).on("load scroll" , function (){
-    if($(this).scrollTop() > 100 && headerMove.hasClass("isFixed")==false){
-        headerMove.css("display","block");
-        headerMove.css({"top": "-80px" });
-        headerMove.addClass("isFixed");
-        headerMove.css({"top":0} , 600) ;
-        headerMove.css({"z-index": "555" });
-    }
-    else if ($(this).scrollTop() < 80 && headerMove.hasClass("isFixed") == true){
-        headerMove.removeClass("isFixed");
-        headerMove.css("display","none");
-    }
-})
-
-window.addEventListener('scroll', function(){
-    window.scrollY;
-});
-
-
-
-
-
-
-
-
-
-
-
 
 jQuery(function() {
     var appear = false;
@@ -54,6 +24,18 @@ jQuery(function() {
       return false;
     });
   });
+
+
+
+
+
+
+
+
+
+
+
+
 
 // ボタン、モダル、モダルの閉じるボタン、オーバーレイを変数に格納、モーダルウィンドウの出力
 let followSpace = document.querySelector('.followSpace');
@@ -82,7 +64,7 @@ followModal.classList.remove('active');
 followOverlay.classList.remove('active');
 });
 
-// ボタン、モダル、モダルの閉じるボタン、オーバーレイを変数に格納、モーダルウィンドウの出力
+// ボタン、モーダルウィンドウ、モダルの閉じるボタン、オーバーレイを変数に格納、モーダルウィンドウの出力
 let space = document.querySelector('.space');
 
 //モーダルウィンドウの出力
@@ -108,18 +90,6 @@ overlay.addEventListener('click', function() {
   modal.classList.remove('active');
   overlay.classList.remove('active');
 });
-
-
-
-
-
-
-
-
-
-
-
-
 /**画面サイズにに関わらず画像サイズを固定 */
 document.addEventListener('DOMContentLoaded', function () {
   const resizeFix = function () {
@@ -144,4 +114,23 @@ document.addEventListener('DOMContentLoaded', function () {
   window.addEventListener('resize', function () {
       resizeFix();
   });
+});
+//追従するヘッダーの記述。
+const headerMove = $('header') ;
+$(window).on("load scroll" , function (){
+    if($(this).scrollTop() > 100 && headerMove.hasClass("isFixed")==false){
+        headerMove.css("display","block");
+        headerMove.css({"top": "-80px" });
+        headerMove.addClass("isFixed");
+        headerMove.css({"top":0} , 600) ;
+        headerMove.css({"z-index": "555" });
+    }
+    else if ($(this).scrollTop() < 80 && headerMove.hasClass("isFixed") == true){
+        headerMove.removeClass("isFixed");
+        headerMove.css("display","none");
+    }
+})
+
+window.addEventListener('scroll', function(){
+    window.scrollY;
 });
