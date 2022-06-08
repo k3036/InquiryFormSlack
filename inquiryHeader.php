@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=google">
   <meta name="viewport" content="width = device - width=device-width, initial-scale = 1.0">
-  <title>form</title>
+  <title>inquiryHeader.php</title>
   <link rel="stylesheet" href="inquiryHeaderCss.php">
 </head>
 
