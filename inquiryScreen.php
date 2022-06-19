@@ -18,7 +18,6 @@
 <body>
   <?php include "inquiryHeader2.php";?>
 
-
   <main>
     <div class="contentOfTransmission">
       <p class="inquiry">お問い合わせ</p>
@@ -39,21 +38,37 @@
         </div>
       </div>
 
+      <form method="POST" action="confirm.php">
+        <div class="entryName"> <input class="entryPlace" type=" text" name="chineseCharacterName" placeholder="山田 太郎">
+        </div>
 
-      <div class="entryName"> <input class="entryPlace" type=" text" placeholder="山田太郎"></div>
-      <div class="entryName2"> <input class="entryPlace" type=" text" placeholder="ヤマダタロウ"></div>
-      <div class="entryNumber"> <input class="entryPlace" type=" text" placeholder="09012345678"></div>
-      <div class="entryAddress"> <input class="entryPlace" type=" text" placeholder="test@test.co.jp"></div>
-      <p class="fillInYourName0">氏名</p>
-      <p class="howToRead0">フリガナ</p>
-      <p class="fillInThePhoneNumber0">電話番号</p>
-      <p class="fillInYourEmailAddress0">メールアドレス</p>
-      <div class="detail"> <input class="entryDetail" type=" text">
-      </div>
-      <a href="InquiryConfirmationScreen.php" input type=" submit" class="submitButton3" style=text-decoration:none;
-        text-area="name=mutter;">
-        <p class="sendSize2"> 送&nbsp;&nbsp;信</p>
-      </a>
+
+        <div class="entryName2">
+          <input class="entryPlace" type=" text" name="howToRead" placeholder="ヤマダタロウ">
+        </div>
+
+
+        <div class="entryNumber">
+          <input class="entryPlace" type=" tel" name="phoneNumber" placeholder="09012345678">
+        </div>
+
+        <div class="entryAddress">
+          <input class="entryPlace" type="email" name="emailAddress" placeholder="test@test.co.jp">
+        </div>
+
+        <div class="detail">
+          <textarea class="entryDetail" type="" name="contentsOfInquiry"></textarea>
+        </div>
+
+
+
+        <p class="fillInYourName0">氏名</p>
+        <p class="howToRead0">フリガナ</p>
+        <p class="fillInThePhoneNumber0">電話番号</p>
+        <p class="fillInYourEmailAddress0">メールアドレス</p>
+
+        <input class="submitButton3" type="submit" value="送信">
+      </form>
 
   </main>
   <div class=inquiryFooter>
@@ -63,7 +78,9 @@
     <div class="footerMove"><?php include "footer.php";?>
     </div>
   </div>
-
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="form0main.js"></script>
 </body>
 
 </html>
